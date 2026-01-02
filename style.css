@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.overlay {
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: #eaffea;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 15px;
+  margin: 0;
+}
+
+nav ul li a {
+  color: #b6ffb6;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.main h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3.4rem;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+
+.main p,
+.main li {
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+.main ul {
+  text-align: left;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+body#ciberpunk { background-color: #bfff00; }
+body#solarpunk { background-color: #87ceeb; }
+body#steampunk { background-color: #f5f5dc; }
+body#biopunk   { background-color: #4d4d4d; }
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+body#index {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #008000;
+  background-image:
+    url("imagenes/portada1.gif"),
+    url("imagenes/portada2.gif"),
+    url("imagenes/portada3.gif"),
+    url("imagenes/portada4.gif");
+  background-position:
+    top left,
+    top right,
+    bottom left,
+    bottom right;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  color: #eaffea;
+}
+
+.overlay {
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.index-header {
+  text-align: center;
+  padding: 100px 80px;
+}
+
+.index-header h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 7rem;
+  letter-spacing: 4px;
+  margin: 20px 0;
+}
+
+.index-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 15px;
+  margin: 0;
+}
+
+.index-nav ul li a {
+  color: #b6ffb6;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.index-nav ul li a:hover {
+  text-decoration: underline;
+}
+
+body#cyberpunk {
+  background-color: #bfff00;
+  background-image: url("imagenes/city.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body#solarpunk {
+  background-color: #87ceeb;
+  background-image: url("imagenes/solarpunk.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body#steampunk {
+  background-color: #f5f5dc;
+  background-image: url("imagenes/steampunk.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body#biopunk {
+  background-color: #4d4d4d;
+  background-image: url("imagenes/biopunk.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
